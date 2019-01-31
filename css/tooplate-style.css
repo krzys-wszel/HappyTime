@@ -456,8 +456,8 @@ progress{
 -----------------------------------------*/
 
 #about {
-  padding-top: 200px;
-  padding-bottom: 150px;
+  padding-top: 150px;
+   
 }
 
 .about-info h3 {
@@ -465,7 +465,7 @@ progress{
   letter-spacing: 12px;
   text-transform: uppercase;
   margin: 0;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 #about h1 {
     font-size: 28px;
@@ -476,8 +476,8 @@ progress{
 -----------------------------------------*/
 
 #offer {
-  padding-top: 200px;
-  padding-bottom: 150px;
+   
+   
 }
 
 .offer-info h3 {
@@ -497,7 +497,7 @@ progress{
 
 #gallery {
   /*padding-top: 200px;*/
-  padding-bottom: 150px;
+  
 }
 
 .gallery-info h3 {
@@ -628,20 +628,18 @@ progress{
 -----------------------------------------*/
 
 #banner {
-    height: 400px;
+    height: 300px;
      
 }
 #banner video {
-    position: fixed;
-    
+  /*  position: fixed;    
     min-width: 100%;
     min-height: 100%;
     width: 100%;
     height: auto;
-    z-index:  -100;
-     
+    z-index:  -100;     
     background-size: cover;
-    transition: 1s opacity;
+    transition: 1s opacity;*/
 }
 
 /*---------------------------------------
@@ -832,7 +830,7 @@ footer .copyright-text {
 
 @media (max-width: 580px) {
   h1 {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   #home {
@@ -840,7 +838,7 @@ footer .copyright-text {
   }
 
   .about-info h3 {
-    font-size: 12px;
+    font-size: 24px;
     letter-spacing: 6px;
   }
 
