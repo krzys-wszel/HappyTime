@@ -73,36 +73,46 @@
 
 
     <!-- HOME -->
-<section id="home" class="parallax-section">
-     <div class="overlay"></div>
-     <div class="container">
-          <div class="row">
+    <section id="home" class="parallax-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
 
-               <div class="col-md-8 col-sm-12">
+                <div class="col-md-8 col-sm-12">
                     <div class="home-text">
-                         <h1>Your Website has a video background!</h1>
-                         <p>Feel free to download and use HTML templates from Tooplate</p>
-                         <ul class="section-btn">
-                              <a href="#about" class="smoothScroll"><span data-hover="Discover More">Discover More</span></a>
-                         </ul>
+                        <h1>Witamy na stronie Zespołu HAPPY TIME</h1>
+                        <p>Zespół Muzyczny - Orkiestra - Kapela z Dolnego Śląska</p>
+                        <ul class="section-btn">
+                            <a href="#about" class="smoothScroll"><span data-hover="Więcej...">Zobacz więcej</span></a>
+                        </ul>
                     </div>
-               </div>
+                </div>
 
-          </div>
-     </div>
+            </div>
+        </div>
 
-     <!-- Video -->
-     <video controls="" autoplay="" loop="" muted>
-          <source src="videos/video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-     </video>
-</section>
+        <!-- Video -->
+        <!--<video    src="videos/video7.mp4" type="video/mp4" codecs="avc1.64001E, mp4a.40.2" autoplay="" controls=""> </video>-->
+        <video>
+ 
+            <source src="videos/video7.mp4" type="video/mp4">
+             
+        </video>
 
+        <nav>
+            <button id="start" onclick="v.play()">Play</button>
+            <button id="stop" onclick="v.currentTime=0;v.pause()">Stop</button>
+            <button id="pause" onclick="v.pause()">Pause</button>
+            <button id="mute" onclick="v.muted = !v.muted">Mute</button>
+            <progress value="0" max="100" step="0.1"></progress>
+        </nav>
+
+    </section>
 
 
     <!-- ABOUT -->
     <section id="about" class="parallax-section">
-        <div class="container-fluid">
+        <div class="container ">
             <div class="row">
 
                 <div class="col-md-offset-1 col-md-10 col-sm-12">
@@ -448,7 +458,7 @@
 
     <!-- banner -->
     <section id="banner" class="parallax-section">
-        <div class="container-fluid">
+        <div class="container ">
             <div class="row">
 
                 <div class="col-md-offset-1 col-md-10 col-sm-12">
@@ -459,7 +469,7 @@
                 </div>
 
             </div>
-
+        </div>
     </section>
     <!-- CONTACT -->
     <section id="contact" class="parallax-section">
